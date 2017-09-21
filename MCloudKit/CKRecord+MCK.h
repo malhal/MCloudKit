@@ -6,7 +6,6 @@
 //  Copyright © 2017 Malcolm Hall. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <CloudKit/CloudKit.h>
 #import <MCloudKit/MCKDefines.h>
 #import <MCloudKit/MCKHasDatabaseScope.h>

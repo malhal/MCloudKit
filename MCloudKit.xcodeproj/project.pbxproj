@@ -45,6 +45,7 @@
 		EC507C9F1F73E8C2003940EB /* MCKRecordSystemFieldsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C921F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507CA01F73E8C2003940EB /* MCKShareSystemFieldsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507D651F741310003940EB /* MCKDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -179,6 +180,7 @@
 			files = (
 				EC507CA01F73E8C2003940EB /* MCKShareSystemFieldsTransformer.h in Headers */,
 				EC507C721F73E6C6003940EB /* MCloudKit.h in Headers */,
+				EC507D651F741310003940EB /* MCKDefines+Namespace.h in Headers */,
 				EC507C981F73E8C2003940EB /* CKOperation+MCK.h in Headers */,
 				EC507C9E1F73E8C2003940EB /* CKFetchDatabaseChangesOperation+MCK.h in Headers */,
 				EC507C9F1F73E8C2003940EB /* MCKRecordSystemFieldsTransformer.h in Headers */,
