@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EC507CA41F73F3F2003940EB /* Namespace */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC507CA51F73F3F2003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */;
+			buildPhases = (
+				EC507CA81F73F3F7003940EB /* ShellScript */,
+			);
+			dependencies = (
+				EC507CAB1F73F441003940EB /* PBXTargetDependency */,
+			);
+			name = Namespace;
+			productName = Namespace;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		EC507C6B1F73E6C6003940EB /* MCloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC507C611F73E6C6003940EB /* MCloudKit.framework */; };
+		EC507C701F73E6C6003940EB /* MCloudKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C6F1F73E6C6003940EB /* MCloudKitTests.m */; };
+		EC507C721F73E6C6003940EB /* MCloudKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C641F73E6C6003940EB /* MCloudKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C7D1F73E72B003940EB /* CKOperation+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C7C1F73E72B003940EB /* CKOperation+MCK.m */; };
+		EC507C801F73E737003940EB /* CKModifyRecordsOperation+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C7E1F73E737003940EB /* CKModifyRecordsOperation+MCK.m */; };
+		EC507C831F73E73E003940EB /* CKFetchRecordZoneChangesOperation+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C821F73E73D003940EB /* CKFetchRecordZoneChangesOperation+MCK.m */; };
+		EC507C861F73E745003940EB /* CKRecordID+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C851F73E745003940EB /* CKRecordID+MCK.m */; };
+		EC507C891F73E74C003940EB /* CKRecordZoneID+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C881F73E74C003940EB /* CKRecordZoneID+MCK.m */; };
+		EC507C8C1F73E756003940EB /* CKRecord+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C8B1F73E756003940EB /* CKRecord+MCK.m */; };
+		EC507C8F1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C8E1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.m */; };
+		EC507C941F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C901F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.m */; };
+		EC507C951F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C931F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m */; };
+		EC507C971F73E8C2003940EB /* MCKDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C961F73E83A003940EB /* MCKDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C981F73E8C2003940EB /* CKOperation+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C7B1F73E72B003940EB /* CKOperation+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C991F73E8C2003940EB /* CKModifyRecordsOperation+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C7F1F73E737003940EB /* CKModifyRecordsOperation+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C9A1F73E8C2003940EB /* CKFetchRecordZoneChangesOperation+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C811F73E73D003940EB /* CKFetchRecordZoneChangesOperation+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C9B1F73E8C2003940EB /* CKRecordID+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C841F73E745003940EB /* CKRecordID+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C9C1F73E8C2003940EB /* CKRecordZoneID+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C871F73E74C003940EB /* CKRecordZoneID+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C9D1F73E8C2003940EB /* CKRecord+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C8A1F73E756003940EB /* CKRecord+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C9E1F73E8C2003940EB /* CKFetchDatabaseChangesOperation+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C8D1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507C9F1F73E8C2003940EB /* MCKRecordSystemFieldsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C921F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507CA01F73E8C2003940EB /* MCKShareSystemFieldsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC507C6C1F73E6C6003940EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC507C581F73E6C6003940EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC507C601F73E6C6003940EB;
+			remoteInfo = MCloudKit;
+		};
+		EC507CAA1F73F441003940EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC507C581F73E6C6003940EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC507C601F73E6C6003940EB;
+			remoteInfo = MCloudKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC507C611F73E6C6003940EB /* MCloudKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MCloudKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC507C641F73E6C6003940EB /* MCloudKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCloudKit.h; sourceTree = "<group>"; };
+		EC507C651F73E6C6003940EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC507C6A1F73E6C6003940EB /* MCloudKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCloudKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC507C6F1F73E6C6003940EB /* MCloudKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCloudKitTests.m; sourceTree = "<group>"; };
+		EC507C711F73E6C6003940EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC507C7B1F73E72B003940EB /* CKOperation+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKOperation+MCK.h"; sourceTree = "<group>"; };
+		EC507C7C1F73E72B003940EB /* CKOperation+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKOperation+MCK.m"; sourceTree = "<group>"; };
+		EC507C7E1F73E737003940EB /* CKModifyRecordsOperation+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKModifyRecordsOperation+MCK.m"; sourceTree = "<group>"; };
+		EC507C7F1F73E737003940EB /* CKModifyRecordsOperation+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKModifyRecordsOperation+MCK.h"; sourceTree = "<group>"; };
+		EC507C811F73E73D003940EB /* CKFetchRecordZoneChangesOperation+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKFetchRecordZoneChangesOperation+MCK.h"; sourceTree = "<group>"; };
+		EC507C821F73E73D003940EB /* CKFetchRecordZoneChangesOperation+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKFetchRecordZoneChangesOperation+MCK.m"; sourceTree = "<group>"; };
+		EC507C841F73E745003940EB /* CKRecordID+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKRecordID+MCK.h"; sourceTree = "<group>"; };
+		EC507C851F73E745003940EB /* CKRecordID+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKRecordID+MCK.m"; sourceTree = "<group>"; };
+		EC507C871F73E74C003940EB /* CKRecordZoneID+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKRecordZoneID+MCK.h"; sourceTree = "<group>"; };
+		EC507C881F73E74C003940EB /* CKRecordZoneID+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKRecordZoneID+MCK.m"; sourceTree = "<group>"; };
+		EC507C8A1F73E756003940EB /* CKRecord+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKRecord+MCK.h"; sourceTree = "<group>"; };
+		EC507C8B1F73E756003940EB /* CKRecord+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKRecord+MCK.m"; sourceTree = "<group>"; };
+		EC507C8D1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKFetchDatabaseChangesOperation+MCK.h"; sourceTree = "<group>"; };
+		EC507C8E1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKFetchDatabaseChangesOperation+MCK.m"; sourceTree = "<group>"; };
+		EC507C901F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCKRecordSystemFieldsTransformer.m; sourceTree = "<group>"; };
+		EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKShareSystemFieldsTransformer.h; sourceTree = "<group>"; };
+		EC507C921F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKRecordSystemFieldsTransformer.h; sourceTree = "<group>"; };
+		EC507C931F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCKShareSystemFieldsTransformer.m; sourceTree = "<group>"; };
+		EC507C961F73E83A003940EB /* MCKDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKDefines.h; sourceTree = "<group>"; };
+		EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKHasDatabaseScope.h; sourceTree = "<group>"; };
+		EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCKDefines+Namespace.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC507C5D1F73E6C6003940EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC507C671F73E6C6003940EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC507C6B1F73E6C6003940EB /* MCloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC507C571F73E6C6003940EB = {
+			isa = PBXGroup;
+			children = (
+				EC507C631F73E6C6003940EB /* MCloudKit */,
+				EC507C6E1F73E6C6003940EB /* MCloudKitTests */,
+				EC507C621F73E6C6003940EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC507C621F73E6C6003940EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC507C611F73E6C6003940EB /* MCloudKit.framework */,
+				EC507C6A1F73E6C6003940EB /* MCloudKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC507C631F73E6C6003940EB /* MCloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				EC507C641F73E6C6003940EB /* MCloudKit.h */,
+				EC507C961F73E83A003940EB /* MCKDefines.h */,
+				EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */,
+				EC507C651F73E6C6003940EB /* Info.plist */,
+				EC507C7B1F73E72B003940EB /* CKOperation+MCK.h */,
+				EC507C7C1F73E72B003940EB /* CKOperation+MCK.m */,
+				EC507C7F1F73E737003940EB /* CKModifyRecordsOperation+MCK.h */,
+				EC507C7E1F73E737003940EB /* CKModifyRecordsOperation+MCK.m */,
+				EC507C811F73E73D003940EB /* CKFetchRecordZoneChangesOperation+MCK.h */,
+				EC507C821F73E73D003940EB /* CKFetchRecordZoneChangesOperation+MCK.m */,
+				EC507C8D1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.h */,
+				EC507C8E1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.m */,
+				EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */,
+				EC507C841F73E745003940EB /* CKRecordID+MCK.h */,
+				EC507C851F73E745003940EB /* CKRecordID+MCK.m */,
+				EC507C871F73E74C003940EB /* CKRecordZoneID+MCK.h */,
+				EC507C881F73E74C003940EB /* CKRecordZoneID+MCK.m */,
+				EC507C8A1F73E756003940EB /* CKRecord+MCK.h */,
+				EC507C8B1F73E756003940EB /* CKRecord+MCK.m */,
+				EC507C921F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.h */,
+				EC507C901F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.m */,
+				EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */,
+				EC507C931F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m */,
+			);
+			path = MCloudKit;
+			sourceTree = "<group>";
+		};
+		EC507C6E1F73E6C6003940EB /* MCloudKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC507C6F1F73E6C6003940EB /* MCloudKitTests.m */,
+				EC507C711F73E6C6003940EB /* Info.plist */,
+			);
+			path = MCloudKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC507C5E1F73E6C6003940EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC507CA01F73E8C2003940EB /* MCKShareSystemFieldsTransformer.h in Headers */,
+				EC507C721F73E6C6003940EB /* MCloudKit.h in Headers */,
+				EC507C981F73E8C2003940EB /* CKOperation+MCK.h in Headers */,
+				EC507C9E1F73E8C2003940EB /* CKFetchDatabaseChangesOperation+MCK.h in Headers */,
+				EC507C9F1F73E8C2003940EB /* MCKRecordSystemFieldsTransformer.h in Headers */,
+				EC507C9C1F73E8C2003940EB /* CKRecordZoneID+MCK.h in Headers */,
+				EC507C9A1F73E8C2003940EB /* CKFetchRecordZoneChangesOperation+MCK.h in Headers */,
+				EC507C971F73E8C2003940EB /* MCKDefines.h in Headers */,
+				EC507C9B1F73E8C2003940EB /* CKRecordID+MCK.h in Headers */,
+				EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */,
+				EC507C991F73E8C2003940EB /* CKModifyRecordsOperation+MCK.h in Headers */,
+				EC507C9D1F73E8C2003940EB /* CKRecord+MCK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC507C601F73E6C6003940EB /* MCloudKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC507C751F73E6C6003940EB /* Build configuration list for PBXNativeTarget "MCloudKit" */;
+			buildPhases = (
+				EC507C5C1F73E6C6003940EB /* Sources */,
+				EC507C5D1F73E6C6003940EB /* Frameworks */,
+				EC507C5E1F73E6C6003940EB /* Headers */,
+				EC507C5F1F73E6C6003940EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCloudKit;
+			productName = MCloudKit;
+			productReference = EC507C611F73E6C6003940EB /* MCloudKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC507C691F73E6C6003940EB /* MCloudKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC507C781F73E6C6003940EB /* Build configuration list for PBXNativeTarget "MCloudKitTests" */;
+			buildPhases = (
+				EC507C661F73E6C6003940EB /* Sources */,
+				EC507C671F73E6C6003940EB /* Frameworks */,
+				EC507C681F73E6C6003940EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC507C6D1F73E6C6003940EB /* PBXTargetDependency */,
+			);
+			name = MCloudKitTests;
+			productName = MCloudKitTests;
+			productReference = EC507C6A1F73E6C6003940EB /* MCloudKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC507C581F73E6C6003940EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Malcolm Hall";
+				TargetAttributes = {
+					EC507C601F73E6C6003940EB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC507C691F73E6C6003940EB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC507CA41F73F3F2003940EB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC507C5B1F73E6C6003940EB /* Build configuration list for PBXProject "MCloudKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC507C571F73E6C6003940EB;
+			productRefGroup = EC507C621F73E6C6003940EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC507C601F73E6C6003940EB /* MCloudKit */,
+				EC507C691F73E6C6003940EB /* MCloudKitTests */,
+				EC507CA41F73F3F2003940EB /* Namespace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC507C5F1F73E6C6003940EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC507C681F73E6C6003940EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC507CA81F73F3F7003940EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dependencies/MHNamespaceGenerator/script.sh MCloudKit.framework MCloudKit MCK";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC507C5C1F73E6C6003940EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC507C941F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.m in Sources */,
+				EC507C801F73E737003940EB /* CKModifyRecordsOperation+MCK.m in Sources */,
+				EC507C831F73E73E003940EB /* CKFetchRecordZoneChangesOperation+MCK.m in Sources */,
+				EC507C8C1F73E756003940EB /* CKRecord+MCK.m in Sources */,
+				EC507C8F1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.m in Sources */,
+				EC507C7D1F73E72B003940EB /* CKOperation+MCK.m in Sources */,
+				EC507C861F73E745003940EB /* CKRecordID+MCK.m in Sources */,
+				EC507C951F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m in Sources */,
+				EC507C891F73E74C003940EB /* CKRecordZoneID+MCK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC507C661F73E6C6003940EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC507C701F73E6C6003940EB /* MCloudKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC507C6D1F73E6C6003940EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC507C601F73E6C6003940EB /* MCloudKit */;
+			targetProxy = EC507C6C1F73E6C6003940EB /* PBXContainerItemProxy */;
+		};
+		EC507CAB1F73F441003940EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC507C601F73E6C6003940EB /* MCloudKit */;
+			targetProxy = EC507CAA1F73F441003940EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC507C731F73E6C6003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC507C741F73E6C6003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC507C761F73E6C6003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MCloudKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MCloudKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC507C771F73E6C6003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MCloudKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MCloudKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC507C791F73E6C6003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MCloudKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MCloudKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC507C7A1F73E6C6003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MCloudKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malhal.MCloudKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC507CA61F73F3F2003940EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC507CA71F73F3F2003940EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC507C5B1F73E6C6003940EB /* Build configuration list for PBXProject "MCloudKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507C731F73E6C6003940EB /* Debug */,
+				EC507C741F73E6C6003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC507C751F73E6C6003940EB /* Build configuration list for PBXNativeTarget "MCloudKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507C761F73E6C6003940EB /* Debug */,
+				EC507C771F73E6C6003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC507C781F73E6C6003940EB /* Build configuration list for PBXNativeTarget "MCloudKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507C791F73E6C6003940EB /* Debug */,
+				EC507C7A1F73E6C6003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC507CA51F73F3F2003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC507CA61F73F3F2003940EB /* Debug */,
+				EC507CA71F73F3F2003940EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC507C581F73E6C6003940EB /* Project object */;
+}
