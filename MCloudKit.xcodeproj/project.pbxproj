@@ -46,6 +46,10 @@
 		EC507CA01F73E8C2003940EB /* MCKShareSystemFieldsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507D651F741310003940EB /* MCKDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB222361F806F3F00000CC4 /* MCKUserSpecificRecordID.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */; };
+		ECB2223C1F80710000000CC4 /* MCKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB222371F806FD900000CC4 /* MCKUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB2223D1F80713400000CC4 /* MCKUserSpecificRecordID.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB222351F806F3F00000CC4 /* MCKUserSpecificRecordID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECB2223E1F80716B00000CC4 /* MCKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB222381F806FD900000CC4 /* MCKUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,10 @@
 		EC507C961F73E83A003940EB /* MCKDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKDefines.h; sourceTree = "<group>"; };
 		EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKHasDatabaseScope.h; sourceTree = "<group>"; };
 		EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCKDefines+Namespace.h"; sourceTree = "<group>"; };
+		ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCKUserSpecificRecordID.m; sourceTree = "<group>"; };
+		ECB222351F806F3F00000CC4 /* MCKUserSpecificRecordID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKUserSpecificRecordID.h; sourceTree = "<group>"; };
+		ECB222371F806FD900000CC4 /* MCKUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKUtilities.h; sourceTree = "<group>"; };
+		ECB222381F806FD900000CC4 /* MCKUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCKUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +166,10 @@
 				EC507C901F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.m */,
 				EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */,
 				EC507C931F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m */,
+				ECB222351F806F3F00000CC4 /* MCKUserSpecificRecordID.h */,
+				ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */,
+				ECB222371F806FD900000CC4 /* MCKUtilities.h */,
+				ECB222381F806FD900000CC4 /* MCKUtilities.m */,
 			);
 			path = MCloudKit;
 			sourceTree = "<group>";
@@ -188,6 +200,8 @@
 				EC507C9A1F73E8C2003940EB /* CKFetchRecordZoneChangesOperation+MCK.h in Headers */,
 				EC507C971F73E8C2003940EB /* MCKDefines.h in Headers */,
 				EC507C9B1F73E8C2003940EB /* CKRecordID+MCK.h in Headers */,
+				ECB2223C1F80710000000CC4 /* MCKUtilities.h in Headers */,
+				ECB2223D1F80713400000CC4 /* MCKUserSpecificRecordID.h in Headers */,
 				EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */,
 				EC507C991F73E8C2003940EB /* CKModifyRecordsOperation+MCK.h in Headers */,
 				EC507C9D1F73E8C2003940EB /* CKRecord+MCK.h in Headers */,
@@ -314,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC507C941F73E7BD003940EB /* MCKRecordSystemFieldsTransformer.m in Sources */,
+				ECB2223E1F80716B00000CC4 /* MCKUtilities.m in Sources */,
 				EC507C801F73E737003940EB /* CKModifyRecordsOperation+MCK.m in Sources */,
 				EC507C831F73E73E003940EB /* CKFetchRecordZoneChangesOperation+MCK.m in Sources */,
 				EC507C8C1F73E756003940EB /* CKRecord+MCK.m in Sources */,
@@ -321,6 +336,7 @@
 				EC507C7D1F73E72B003940EB /* CKOperation+MCK.m in Sources */,
 				EC507C861F73E745003940EB /* CKRecordID+MCK.m in Sources */,
 				EC507C951F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m in Sources */,
+				ECB222361F806F3F00000CC4 /* MCKUserSpecificRecordID.m in Sources */,
 				EC507C891F73E74C003940EB /* CKRecordZoneID+MCK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

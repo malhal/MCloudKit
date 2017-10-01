@@ -9,13 +9,16 @@
 
 #import <MCloudKit/MCKHasDatabaseScope.h>
 
-#import <MCloudKit/CKRecordID+MCK.h>
-#import <MCloudKit/CKRecordZoneID+MCK.h>
-#import <MCloudKit/CKRecord+MCK.h>
+#import <MCloudKit/MCKUtilities.h>
+#import <MCloudKit/MCKUserSpecificRecordID.h>
 #import <MCloudKit/MCKRecordSystemFieldsTransformer.h>
 #import <MCloudKit/MCKShareSystemFieldsTransformer.h>
 
+#import <MCloudKit/CKRecordID+MCK.h>
+#import <MCloudKit/CKRecordZoneID+MCK.h>
+#import <MCloudKit/CKRecord+MCK.h>
 #import <MCloudKit/CKOperation+MCK.h>
 #import <MCloudKit/CKModifyRecordsOperation+MCK.h>
 #import <MCloudKit/CKFetchRecordZoneChangesOperation+MCK.h>
 #import <MCloudKit/CKFetchDatabaseChangesOperation+MCK.h>
+
