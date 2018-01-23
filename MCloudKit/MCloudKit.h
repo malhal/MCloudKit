@@ -17,6 +17,7 @@
 #import <MCloudKit/CKRecordID+MCK.h>
 #import <MCloudKit/CKRecordZoneID+MCK.h>
 #import <MCloudKit/CKRecord+MCK.h>
+#import <MCloudKit/CKReference+MCK.h>
 #import <MCloudKit/CKOperation+MCK.h>
 #import <MCloudKit/CKModifyRecordsOperation+MCK.h>
 #import <MCloudKit/CKFetchRecordZoneChangesOperation+MCK.h>

@@ -46,6 +46,8 @@
 		EC507CA01F73E8C2003940EB /* MCKShareSystemFieldsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507D651F741310003940EB /* MCKDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC6575742017E610005F325E /* CKReference+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6575722017E610005F325E /* CKReference+MCK.h */; };
+		EC6575752017E610005F325E /* CKReference+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575732017E610005F325E /* CKReference+MCK.m */; };
 		ECB222361F806F3F00000CC4 /* MCKUserSpecificRecordID.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */; };
 		ECB2223C1F80710000000CC4 /* MCKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB222371F806FD900000CC4 /* MCKUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECB2223D1F80713400000CC4 /* MCKUserSpecificRecordID.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB222351F806F3F00000CC4 /* MCKUserSpecificRecordID.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,6 +99,8 @@
 		EC507C961F73E83A003940EB /* MCKDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKDefines.h; sourceTree = "<group>"; };
 		EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKHasDatabaseScope.h; sourceTree = "<group>"; };
 		EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCKDefines+Namespace.h"; sourceTree = "<group>"; };
+		EC6575722017E610005F325E /* CKReference+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKReference+MCK.h"; sourceTree = "<group>"; };
+		EC6575732017E610005F325E /* CKReference+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKReference+MCK.m"; sourceTree = "<group>"; };
 		ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCKUserSpecificRecordID.m; sourceTree = "<group>"; };
 		ECB222351F806F3F00000CC4 /* MCKUserSpecificRecordID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKUserSpecificRecordID.h; sourceTree = "<group>"; };
 		ECB222371F806FD900000CC4 /* MCKUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKUtilities.h; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 				ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */,
 				ECB222371F806FD900000CC4 /* MCKUtilities.h */,
 				ECB222381F806FD900000CC4 /* MCKUtilities.m */,
+				EC6575722017E610005F325E /* CKReference+MCK.h */,
+				EC6575732017E610005F325E /* CKReference+MCK.m */,
 			);
 			path = MCloudKit;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				EC507C9A1F73E8C2003940EB /* CKFetchRecordZoneChangesOperation+MCK.h in Headers */,
 				EC507C971F73E8C2003940EB /* MCKDefines.h in Headers */,
 				EC507C9B1F73E8C2003940EB /* CKRecordID+MCK.h in Headers */,
+				EC6575742017E610005F325E /* CKReference+MCK.h in Headers */,
 				ECB2223C1F80710000000CC4 /* MCKUtilities.h in Headers */,
 				ECB2223D1F80713400000CC4 /* MCKUserSpecificRecordID.h in Headers */,
 				EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */,
@@ -334,6 +341,7 @@
 				EC507C8C1F73E756003940EB /* CKRecord+MCK.m in Sources */,
 				EC507C8F1F73E75E003940EB /* CKFetchDatabaseChangesOperation+MCK.m in Sources */,
 				EC507C7D1F73E72B003940EB /* CKOperation+MCK.m in Sources */,
+				EC6575752017E610005F325E /* CKReference+MCK.m in Sources */,
 				EC507C861F73E745003940EB /* CKRecordID+MCK.m in Sources */,
 				EC507C951F73E7BD003940EB /* MCKShareSystemFieldsTransformer.m in Sources */,
 				ECB222361F806F3F00000CC4 /* MCKUserSpecificRecordID.m in Sources */,
