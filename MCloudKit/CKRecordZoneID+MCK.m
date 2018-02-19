@@ -14,7 +14,7 @@
     if(self.mck_isOwnedByCurrentUser){
         return CKDatabaseScopePrivate;
     }
-    return CKDatabaseScopePublic;
+    return CKDatabaseScopeShared;
 }
 
 - (BOOL)mck_isOwnedByCurrentUser{
