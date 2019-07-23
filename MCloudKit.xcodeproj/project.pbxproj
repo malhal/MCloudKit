@@ -46,6 +46,7 @@
 		EC507CA01F73E8C2003940EB /* MCKShareSystemFieldsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507C911F73E7BD003940EB /* MCKShareSystemFieldsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507CA21F73EB99003940EB /* MCKHasDatabaseScope.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC507D651F741310003940EB /* MCKDefines+Namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC60936C218796E10089532C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC60936B218796E10089532C /* CloudKit.framework */; };
 		EC6575742017E610005F325E /* CKReference+MCK.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6575722017E610005F325E /* CKReference+MCK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC6575752017E610005F325E /* CKReference+MCK.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6575732017E610005F325E /* CKReference+MCK.m */; };
 		ECB222361F806F3F00000CC4 /* MCKUserSpecificRecordID.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */; };
@@ -99,6 +100,7 @@
 		EC507C961F73E83A003940EB /* MCKDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKDefines.h; sourceTree = "<group>"; };
 		EC507CA11F73EA60003940EB /* MCKHasDatabaseScope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCKHasDatabaseScope.h; sourceTree = "<group>"; };
 		EC507CA91F73F417003940EB /* MCKDefines+Namespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCKDefines+Namespace.h"; sourceTree = "<group>"; };
+		EC60936B218796E10089532C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		EC6575722017E610005F325E /* CKReference+MCK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CKReference+MCK.h"; sourceTree = "<group>"; };
 		EC6575732017E610005F325E /* CKReference+MCK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CKReference+MCK.m"; sourceTree = "<group>"; };
 		ECB222341F806F3F00000CC4 /* MCKUserSpecificRecordID.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCKUserSpecificRecordID.m; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC60936C218796E10089532C /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +135,7 @@
 				EC507C631F73E6C6003940EB /* MCloudKit */,
 				EC507C6E1F73E6C6003940EB /* MCloudKitTests */,
 				EC507C621F73E6C6003940EB /* Products */,
+				EC60936A218796E00089532C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +191,14 @@
 				EC507C711F73E6C6003940EB /* Info.plist */,
 			);
 			path = MCloudKitTests;
+			sourceTree = "<group>";
+		};
+		EC60936A218796E00089532C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC60936B218796E10089532C /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
