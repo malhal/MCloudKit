@@ -6,21 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		EC507CA41F73F3F2003940EB /* Namespace */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = EC507CA51F73F3F2003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */;
-			buildPhases = (
-				EC507CA81F73F3F7003940EB /* ShellScript */,
-			);
-			dependencies = (
-				EC507CAB1F73F441003940EB /* PBXTargetDependency */,
-			);
-			name = Namespace;
-			productName = Namespace;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		EC507C6B1F73E6C6003940EB /* MCloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC507C611F73E6C6003940EB /* MCloudKit.framework */; };
 		EC507C701F73E6C6003940EB /* MCloudKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC507C6F1F73E6C6003940EB /* MCloudKitTests.m */; };
@@ -57,13 +42,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		EC507C6C1F73E6C6003940EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC507C581F73E6C6003940EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC507C601F73E6C6003940EB;
-			remoteInfo = MCloudKit;
-		};
-		EC507CAA1F73F441003940EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC507C581F73E6C6003940EB /* Project object */;
 			proxyType = 1;
@@ -283,10 +261,6 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					EC507CA41F73F3F2003940EB = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = EC507C5B1F73E6C6003940EB /* Build configuration list for PBXProject "MCloudKit" */;
@@ -303,7 +277,6 @@
 			targets = (
 				EC507C601F73E6C6003940EB /* MCloudKit */,
 				EC507C691F73E6C6003940EB /* MCloudKitTests */,
-				EC507CA41F73F3F2003940EB /* Namespace */,
 			);
 		};
 /* End PBXProject section */
@@ -324,22 +297,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		EC507CA81F73F3F7003940EB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "dependencies/MHNamespaceGenerator/script.sh MCloudKit.framework MCloudKit MCK";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC507C5C1F73E6C6003940EB /* Sources */ = {
@@ -376,11 +333,6 @@
 			isa = PBXTargetDependency;
 			target = EC507C601F73E6C6003940EB /* MCloudKit */;
 			targetProxy = EC507C6C1F73E6C6003940EB /* PBXContainerItemProxy */;
-		};
-		EC507CAB1F73F441003940EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC507C601F73E6C6003940EB /* MCloudKit */;
-			targetProxy = EC507CAA1F73F441003940EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -557,22 +509,6 @@
 			};
 			name = Release;
 		};
-		EC507CA61F73F3F2003940EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		EC507CA71F73F3F2003940EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,15 +535,6 @@
 			buildConfigurations = (
 				EC507C791F73E6C6003940EB /* Debug */,
 				EC507C7A1F73E6C6003940EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC507CA51F73F3F2003940EB /* Build configuration list for PBXAggregateTarget "Namespace" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC507CA61F73F3F2003940EB /* Debug */,
-				EC507CA71F73F3F2003940EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
